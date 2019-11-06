@@ -1,14 +1,12 @@
-import React, { useState } from "react";
+import React from "react";
 
 const Display = (props) => {
-
-  const [displayNumbers] = useState(0);
 
   return (
     <div className="display">
       {/* Display any props data here */}
 
-      <p>{displayNumbers}</p>
+      <p> {props.displayValue} </p>
 
     </div>
   )
