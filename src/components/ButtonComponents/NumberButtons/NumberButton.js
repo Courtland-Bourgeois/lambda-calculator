@@ -7,7 +7,7 @@ const NumberButton = (props) => {
 
       <button
         className='numbersButton'
-        onClick={() => props.setter(props.button)}
+        onClick={() => props.addNumber(props.button)}
       >
         {props.button}
       </button>

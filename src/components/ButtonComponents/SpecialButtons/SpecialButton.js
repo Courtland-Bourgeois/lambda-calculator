@@ -6,7 +6,7 @@ const SpecialButton = (props) => {
 
       {/* Display a button element rendering the data being passed down from the parent container on props */}
 
-      <button className ='specialButtons' onClick={ () => props.setter(props.button)}>
+      <button className ='specialButtons' onClick={ () => props.addNumber(props.button)}>
         {props.value}
       </button>
 

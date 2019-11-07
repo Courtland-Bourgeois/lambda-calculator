@@ -19,7 +19,7 @@ const Operators = (props) => {
        it any props needed by the child component*/}
 
        {operatorButton.map((button, index) => (
-         <OperatorButton key={index} button={button} setter={props.setter} />
+         <OperatorButton key={index} button={button} addOperator={props.addOperator} />
        ))}
 
     </div>

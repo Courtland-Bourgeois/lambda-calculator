@@ -19,7 +19,7 @@ const Specials = (props) => {
        it any props needed by the child component*/}
 
        {specialButton.map(button => (
-         <SpecialButton key={button} value={button} setter={props.setter} />
+         <SpecialButton key={button} value={button} addNumber={props.addNumber} />
        ))}
 
     </div>
