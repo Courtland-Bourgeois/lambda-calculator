@@ -1,0 +1,103 @@
+.container {
+    background-color: #c00025;
+    width: 100%;
+    max-width: 375px;
+    border-radius: 15px;
+    border: 2px solid grey;
+    padding-bottom: 25px;
+}
+.display {
+    margin-top: 25px;
+    margin-left: 5%;
+    height: 100px;
+    width: 300px;
+    border-radius: 50px;
+    color: white;
+    background-color: #322c2d;
+    box-shadow: 1px 1px #322c2d;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 8%;
+    font-size: 3rem;
+}
+
+/* special buttons styling */
+
+.specialsParent {
+    display: flex;
+    margin-right: 35%;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+.specialsChild {
+    padding: 5%;
+}
+
+.specialButtons {
+    border-radius: 50%;
+    height: 65px;
+    width: 65px;
+    font-size: 1.3rem;
+    background-color: #1369AF;
+    color: white;
+    border: 1px solid #1369AF;
+    -webkit-box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.75);
+}
+
+/* operator buttons styling */
+
+.operatorsParent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 5%;
+    margin-left: 75%;
+    margin-top: -80px;
+}
+
+.operatorsChild {
+    padding: 5%;
+}
+
+.operatorButtons {
+    border-radius: 50%;
+    height: 65px;
+    width: 65px;
+    font-size: 1.3rem;
+    background-color: #3BB6E2;
+    color: white;
+    border: 1px solid #3BB6E2;
+    -webkit-box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.75);
+}
+
+/* number buttons styling */
+
+.numbersParent {
+    display: flex;
+    flex-wrap: wrap;
+    width: 75%;
+    margin-top: -300px;
+}
+
+.numbersChild {
+    padding: 5% 5% 0;
+}
+
+.numbersButton {
+    border-radius: 50%;
+    height: 65px;
+    width: 65px;
+    font-size: 1.3rem;
+    background-color: #0A3B6D;
+    color: white;
+    border: 1px solid #0A3B6D;
+    -webkit-box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.75);
+}
